@@ -1,0 +1,17 @@
+Add Student:
+
+-localhost:3000/addstudent + POST + [name,batch,,phone,image,teacherId=body] + [content-Type:multipaet/form-data,Authorization:Token]
+
+
+getStudents:
+
+-localhost:3000/getStudents + GET + [Authorization:token =headers]
+
+deleteStudent:
+
+-localhost:3000/deleteStudent/sid  + DELETE + [Authorization:token =headers]
+
+
+updateStudent:
+
+-localhost:3000/deleteStudent/sid + PUT + [name,batch,phone,teacherId=body] + [content]
